@@ -5,7 +5,8 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "start": "yarn workspace server start & yarn workspace client start"
+    "start": "yarn workspace server start & yarn workspace client start",
+    "build": "yarn workspace server start & yarn workspace client build"
   },
   "workspaces": [
     "server",
